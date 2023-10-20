@@ -1,0 +1,218 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+   color: antiquewhite;
+    background-color: rgb(42, 42, 68);
+    padding: 6px;
+    justify-content: space-between;
+}
+.fnav.left{
+    display:flex;
+    margin-top: 10px;
+
+}
+.left img{
+    width: 13%;
+    height: 8%;
+    margin-top: 16px;
+    margin-left: 5%;
+    left: -4%;
+    position: absolute;
+}
+.left input{
+    left: 11%;
+    position: absolute;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+    margin-left: 10%;
+    top:21px;
+}
+.fnav.right{
+    display: flex;
+    margin-top: 16px;
+    
+    
+}
+.right p{
+    margin-inline: -150px;
+    font-size: 20px;
+    padding-top: 20%;
+    margin-right: 20%;
+    position: relative;
+    top: 5px;
+    left: 18%;   
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(246, 131, 150);
+    color: white;
+    margin-bottom: 5%;
+    position: relative;
+    top: -19%;
+
+}
+.right button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    
+
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+    }
+
+  .snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgb(26, 26, 48);
+    color: white;
+
+  }
+  .snav .sleft{
+    display: flex;
+  }
+  .snav .sright{
+    display: flex;
+  }
+
+  .sleft p{
+    margin-inline: 16px;
+  }
+  .sright p{
+    margin-inline: 16px;
+  }
+  .snav p:hover{
+    color:rgb(250, 75, 100);
+    cursor: pointer;
+    font-size: 17px;
+}
+.main img{
+    width: 100%;
+    }
+    .container .card{
+       display: flex;
+       justify-content: center;
+       justify-content: space-around;
+    }
+
+    .container h1{
+        align:center;
+        padding: 25px;
+    }
+    .container h1:hover{
+        color:rgb(32, 206, 5);
+        font-size: 30px;
+    }
+    
+    
+    .card img{
+        width: 17%;
+        margin-block: 18px;
+        border-radius: 5px;
+    }
+    .card img:hover{
+        transform: scale(1.05);
+    }
+    .tag img{
+         width: 100%;
+         margin-top: 20px;
+    }
+    .containers h2{
+        align:center;
+        padding: 20px;
+        font-size: 200%;
+        color: rgb(155, 12, 122);
+        
+    }
+    .containers h2:hover{
+        transform: scale(1.05);
+        font-size: 250%;
+        cursor:pointer;
+        color: rgb(21, 5, 113);
+    }
+    .containers .card{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+  
+    .premiere{
+        background: linear-gradient(rgb(12, 26, 66),rgb(55, 47, 63));
+        color: white;
+        padding: 33px;
+        margin-top: 45px;
+    }
+   .premiere .card {
+        width: 97%;
+        height: fit-content;
+        margin-block: 18px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left: 2%;
+
+    }
+    .premiere h2{
+        align:center;
+        padding: 10px;
+        font-size: 250%;
+         }
+
+         .premiere h4{
+            align:center;
+            padding: 5px;
+            font-size: 150%;
+            margin-left: 40%;
+            color: rgb(255, 255, 255);
+         }
+         .footer{
+            background-color: rgb(252, 245, 245);
+            padding:33px;
+            margin-top: 00px;
+         }
+         .footer img{
+            width:22%;
+            margin-left: 36%;
+           
+         }
+         .footer img:hover{
+            transform: scale(1.05);
+         }
+         
+         .footer .icon{
+            display: flex;
+            justify-content:center;
+            justify-content: space-around;
+         }
+         .icon i{
+            margin-inline: 3px;
+            font-size: 35px;
+            margin-left: 18%;
+            margin-bottom: 53;
+         }
+         .icon i:hover{
+        transform: scale(1.05);
+        font-size: 250%;
+        cursor:progress;
+        
+         }
